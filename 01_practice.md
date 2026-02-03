@@ -199,13 +199,11 @@ separator = "-"
 다음을 생성하시오:
 - 설비 ID: prefix + separator + number
 - 구분선 40개의 등호(=)
-- "OK"를 5번 반복하고 쉼표로 구분
 
 **예상 결과:**
 ```
 설비 ID: MC-001
 ========================================
-OK,OK,OK,OK,OK
 ```
 
 ---
@@ -272,8 +270,6 @@ item_name = "Bolt"
 양쪽 제거: 'System Error 404'
 왼쪽 제거: 'System Error 404   '
 오른쪽 제거: '   System Error 404'
-왼쪽 정렬: 'Bolt                '
-오른쪽 정렬: '                Bolt'
 ```
 
 ---
